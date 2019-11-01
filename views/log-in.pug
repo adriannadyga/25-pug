@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title="log in"
+    body
+        h1 Log in
+        form(action="http://localhost:3000/auth/google", method='GET')
+            p
+                input(type='text', placeholder='NAME', name='name')
+            p
+                input(type='text', placeholder='PASSWORD', name='password')
+            p
+                input(type='submit', value='Submit')
